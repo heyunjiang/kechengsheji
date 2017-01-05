@@ -1,0 +1,72 @@
+.banner {
+	height: 120px;
+	background-color: #c97bb2;
+	position: relative;
+}
+.banner-left {
+	line-height: 120px;
+	position: absolute;
+	left: 30px;
+	img {
+		height: 90px;
+	}
+	.myJk {
+		margin-left: 10px;
+		a {
+			font-size: 30px;
+			color: white;
+			text-decoration: none;
+		}
+	}
+	.jk-title {
+		margin-left: 20px;
+		a {
+			font-size: 16px;
+			color: white;
+			text-decoration: none;
+		}
+	}
+}
+.banner-right {
+	position: absolute;
+	right: 30px;
+	padding-top: 45px;
+	input {
+		width: 150px;
+		height: 30px;
+		background-color: white;
+		border: none;
+	}
+	.search-btn {
+		height: 30px;
+		line-height: 30px;
+		padding: 0 10px;
+		background-color: #f9f9f9;
+	}
+	.my-car {
+		height: 30px;
+		line-height: 30px;
+		padding: 0 10px;
+		background-color: #f9f9f9;
+		margin-left: 10px;
+
+		font-size: 16px;
+		color: rgba(111,111,111,0.8);
+
+		img {
+			margin-right: 5px;
+		}
+		.goods {
+			color: white;
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			border-radius: 15px;
+			text-align: center;
+			background-color: #f10180;
+			position: relative;
+			left: 5px;
+			top: -10px;
+		}
+	}
+}
