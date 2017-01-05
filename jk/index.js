@@ -1,7 +1,18 @@
-import sub from './sub';
+import './structureSass/reset.scss';
+import './structureSass/structure.scss';
+
 import './main.scss';
-var app  = document.createElement('div');
-app.innerHTML = '<h1 class="hello">Hello index</h1>';
-app.appendChild(sub());
-document.body.appendChild(app);
-$('body').append('<p>look at me! Now is ' + moment().format() + '</p>');
+
+import header from './components/header/header';
+
+class index {
+	constructor(){
+		this.header();
+	}
+	header(){
+		let app = document.querySelector(".content-top");
+		$(app).append(header());
+	}
+}
+
+new index();
