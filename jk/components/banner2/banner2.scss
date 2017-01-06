@@ -1,0 +1,37 @@
+.banner2 {
+	height: 120px;
+	background-color: #fefeff;
+	position: relative;
+}
+.banner2-left {
+	line-height: 120px;
+	position: absolute;
+	left: 30px;
+	img {
+		height: 90px;
+	}
+}
+.banner2-right {
+	margin: 0 auto;
+	width: 600px;
+	padding-top: 35px;
+	input {
+		width: 550px;
+		height: 30px;
+		background-color: white;
+		border: 1px solid #ca7bb2;
+		padding: 5px 10px;
+	}
+	.search-btn {
+		height: 30px;
+		line-height: 30px;
+		padding: 0 10px;
+		background-color: #ca7bb2;
+		color: white;
+	}
+	
+}
+.banner2-bottom {
+	text-align: center;
+	margin-top: 10px;
+}

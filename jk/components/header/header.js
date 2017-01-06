@@ -10,7 +10,7 @@ export default function() {
   module += '<div class="header-right">';
   module += '<div class="inline-div pointer-cursor"><a>尊敬的用户</a></div>';
   module += '<div class="inline-div pointer-cursor"><a>我的订单</a></div>';
-  module += '<div class="inline-div pointer-cursor"><a>我的眷客</a></div>';
+  module += '<div class="inline-div pointer-cursor"><a href="index.html">我的眷客</a></div>';
   module += '<div class="inline-div pointer-cursor"><a>眷可会员</a></div>';
   module += '<div class="inline-div pointer-cursor"><a>企业采购</a></div>';
   module += '<div class="inline-div pointer-cursor"><a>手机眷客</a></div>';

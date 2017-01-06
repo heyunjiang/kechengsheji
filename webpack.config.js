@@ -7,7 +7,8 @@ var BUILD_PATH = path.resolve(ROOT_PATH, 'build');
 var TEM_PATH = path.resolve(ROOT_PATH, 'templates');
 
 module.exports = {
-  entry: APP_PATH,
+  // entry: path.resolve(APP_PATH,'member'),
+  entry: path.resolve(APP_PATH,'index'),
   output: {
     path: BUILD_PATH,
     filename: 'bundle.js'

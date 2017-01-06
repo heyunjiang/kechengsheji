@@ -1,0 +1,23 @@
+.myOrder {
+	position: absolute;
+	left: 250px;
+	top: 350px;
+	height: 250px;
+	width: 620px;
+	background: #ffffff;
+	padding: 10px;
+	span {
+		display: inline-block;
+	}
+	.myOrder-title-left {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.myOrder-title-right {
+		float: right;
+		a {
+			color: rgba(black, 0.7);
+			text-decoration: none;
+		}
+	}
+}

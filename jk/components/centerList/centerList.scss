@@ -1,0 +1,23 @@
+.centerList {
+	display: inline-block;
+	width: 200px;
+	background-color: #f5f5f5;
+	position: relative;
+	left: 50px;
+	top: 30px;
+	li {
+		font-size: 14px;
+		a {
+			text-decoration: none;
+			color: rgba(gray,1);
+			cursor: pointer;
+		}
+	}
+	.threecenter {
+		font-weight: bold;
+		margin-top: 10px;
+	}
+	.threecenter:first-of-type {
+		margin-top: 0;
+	}
+}

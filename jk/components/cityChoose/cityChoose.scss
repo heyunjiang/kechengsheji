@@ -1,0 +1,21 @@
+.cityChoose {
+	position: relative;
+	width: 80%;
+	margin: 20px auto 0;
+	padding: 10px;
+	background: white;
+	border: 1px solid #ca7bb2;
+	ul:first-of-type {
+		border-bottom: 1px dashed rgba(gray,0.8);
+	}
+	li {
+		display: inline-block;
+		font-size: 16px;
+		margin-right: 10px;
+		letter-spacing: .2em;
+	}
+	.city-title {
+		width: 150px;
+		color: rgba(gray,0.8);
+	}
+}

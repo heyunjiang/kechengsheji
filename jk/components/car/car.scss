@@ -1,0 +1,36 @@
+.car-banner {
+	position: relative;
+	height: 150px;
+	background: #fefeff;
+	padding-left: 30px;
+}
+.car-title {
+	color: #ca7bb2;
+	font-size: 26px;
+	position: relative;
+	top: 10px;
+}
+.goods-content {
+	position: relative;
+	background: #fefeff;
+	.row {
+		height: 50px;
+		line-height: 50px;
+		margin-bottom: 5px;
+		div {
+			text-align: center;
+		}
+		img {
+			height: 40px;
+			display: inline-block;
+		}
+	}
+	.row:first-of-type,.row:last-of-type {
+		height: 50px;
+		line-height: 50px;
+		border-top: 1px dashed #ca7bb2;
+		border-bottom: 1px dashed #ca7bb2;
+		background: #f1f1f1;
+	}
+
+}

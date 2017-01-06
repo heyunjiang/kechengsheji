@@ -1,0 +1,31 @@
+.sort {
+	position: relative;
+	width: 80%;
+	height: 40px;
+	margin: 5px auto 0;
+	background: rgba(gray,0.8);
+	border: 1px solid #ca7bb2;
+	li {
+		display: inline-block;
+		font-size: 16px;
+		letter-spacing: .2em;
+		cursor: pointer;
+		height: 38px;
+		padding: 10px;
+		&:hover {
+			background: white;
+		}
+		&:first-of-type {
+			background: white;
+		}
+	}
+}
+.goodsShow {
+	position: relative;
+	width: 80%;
+	height: 40px;
+	margin: 5px auto 0;
+	background: white;
+	border: 1px solid #ca7bb2;
+	padding: 10px;
+}
